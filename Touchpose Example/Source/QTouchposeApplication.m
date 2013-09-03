@@ -22,7 +22,7 @@
 @interface QTouchposeApplication ()
 
 - (void)updateTouches:(NSSet *)touches;
-- (void)applicationDidFinishLaunching:(NSNotification *)notification;
+
 - (void)screenDidConnectNotification:(NSNotification *)notification;
 - (void)screenDidDisonnectNotification:(NSNotification *)notification;
 - (void)keyboardDidShowNotification:(NSNotification *)notification;

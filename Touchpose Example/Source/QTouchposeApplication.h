@@ -22,4 +22,7 @@
 @property (nonatomic, assign) BOOL alwaysShowTouches;
 @property (nonatomic, assign) BOOL showTouchesWhenKeyboardShown;
 
+
+- (void)applicationDidFinishLaunching:(NSNotification *)notification;
+
 @end
